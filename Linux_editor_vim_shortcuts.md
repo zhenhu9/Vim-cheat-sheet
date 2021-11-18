@@ -407,7 +407,7 @@ CTRL-X CTRL-F		/* Filename completion.
 	[is | incsearch]	/* 开启搜索输入同步匹配高亮。
 	[ws | wrapscan]		/* 开启文件滚动搜索。
 
-	[ai | autoindent]	/* 开启自动缩进。
+	[ai | autoindent]	/* 开启自动缩进。以首行缩进作为其下行缩进方式。
 	[si | smartindent]	/* 开启智能缩进。必须开启 autoindent。
 
 	autochdir		/* 根据所编辑文件的位置自动切换 vim 工作目录。
